@@ -1,4 +1,4 @@
-package org.example;
+package robot;
 
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import java.util.logging.Level;
 
-public class SeleniumTest {
+public class FirstTest {
     private WebDriver driver;
     private String baseUrl;
     private boolean acceptNextAlert = true;
